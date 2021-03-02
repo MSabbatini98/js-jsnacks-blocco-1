@@ -5,7 +5,7 @@ var maggiore;
 
 for (var i = 1; i < 10; i++) {
     if(!isNaN(num_2) && !isNaN(num_2)){
-        console.log(num_1, num_2)
+        console.log(num_1, num_2);
     } else {
         num_1 = prompt("Inserisci il primo NUMERO ");
         num_2 = prompt("Inserisci il secondo NUMERO ");

@@ -6,6 +6,16 @@ var first;
 var second;
 var draw = "";
 
+for (var i = 1; i < 10; i++) {
+
+    if(isNaN(par_2) && isNaN(par_1)){
+        console.log(par_1, par_2);
+    } else {
+        par_1 = prompt("Inserisci la prima PAROLA ");
+        par_2 = prompt("Inserisci la seconda PAROLA ");
+    }
+}
+
 if (par_1.length > par_2.length) {
     first = par_2;
     second = par_1; 
