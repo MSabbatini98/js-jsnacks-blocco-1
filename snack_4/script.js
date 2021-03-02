@@ -5,7 +5,16 @@ var invitati = [    "Samuele",
                     "Vito", 
                     "Luca", 
                     "Matteo", 
-                    "Michele", 
+                    "Michele",
+                    // rimuovo la case sensitiveness in maniera rozzissima 
+                    "samuele", 
+                    "lorena", 
+                    "francesca", 
+                    "gabriele", 
+                    "vito", 
+                    "luca", 
+                    "matteo", 
+                    "michele", 
                 ];
 var esito = false;
 var utente = prompt("Inserisci il tuo nome e scopri se sei invitato anche tu alla festa di Inzaghi. N.B. I nomi propri hanno l'iniziale maiuscola");
