@@ -1,4 +1,5 @@
-var invitati = [    "Samuele", 
+var invitati = [
+/*                  "Samuele", 
                     "Lorena", 
                     "Francesca", 
                     "Gabriele", 
@@ -6,7 +7,7 @@ var invitati = [    "Samuele",
                     "Luca", 
                     "Matteo", 
                     "Michele",
-                    // rimuovo la case sensitiveness in maniera rozzissima 
+*/
                     "samuele", 
                     "lorena", 
                     "francesca", 
@@ -14,13 +15,16 @@ var invitati = [    "Samuele",
                     "vito", 
                     "luca", 
                     "matteo", 
-                    "michele", 
+                    "michele",  
                 ];
 var esito = false;
-var utente = prompt("Inserisci il tuo nome e scopri se sei invitato anche tu alla festa di Inzaghi. N.B. I nomi propri hanno l'iniziale maiuscola");
+var utente = prompt("Inserisci il tuo nome e scopri se sei invitato anche tu alla festa di Inzaghi. ");
+
+// rimuovo la case sensitiveness in maniera rozzissima 
+utente = utente.toLowerCase(); 
 
 for (var i = 0; i < invitati.length; i++) {
-    console.log(i, invitati[i]);
+    console.log(i, invitati[i], utente);
     if (invitati[i] == utente) {
         esito = true;
         break;
