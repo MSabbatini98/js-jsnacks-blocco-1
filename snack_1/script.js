@@ -11,5 +11,7 @@ if (num_1 > num_2){
 } else if (num_1 < num_2) {
     maggiore = num_2
 }
+document.getElementById("input_1").innerHTML = "Il primo input è stato : " + num_1;
+document.getElementById("input_2").innerHTML = "Il secondo input è stato : " + num_2;
 
-document.getElementById("output").innerHTML = maggiore;
+document.getElementById("outcome").innerHTML = "Il maggiore tra " + num_1 + " e " + num_2 + " è " + maggiore;
