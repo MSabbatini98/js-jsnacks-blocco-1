@@ -4,8 +4,8 @@ var num = 0;
 for (var i = 1; i <= 10; i++) {
     //todo non funziona il validator
     for (var j = 1; j < 10; j++) {
+        num = parseInt(prompt("inserisci un numero da sommare"));
         if(!isNaN(num)){
-            num = parseInt(prompt("inserisci un numero da sommare"));
             console.log("valore inserito", num);
             tot += num;
             console.log(i, num, tot);
