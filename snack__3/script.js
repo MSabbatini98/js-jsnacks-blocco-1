@@ -4,7 +4,12 @@ var array_nomi = [
                     "Gabriele",
                     "Beatrice",
                     "Davide",
-                    "Alfredo"
+                    "Alfredo",
+                    "Samuele",
+                    "Alessandro",
+                    "Tommaso",
+                    "Daniele",
+                    "Caterina"
                 ];
 
 var array_cognomi = [
@@ -13,9 +18,17 @@ var array_cognomi = [
                         "Corti",
                         "Castagno",
                         "Sadotti",
-                        "Ficocelli"
+                        "Ficocelli",
+                        "Madrigali",
+                        "Giordano",
+                        "Dossena",
+                        "Vergani",
+                        "Bertotti"
                     ];
-var random_value;
+
+var random_value_nome;
+var random_value_cognome;
+
 var random_nomi_cognomi = [];
 
 
@@ -27,7 +40,7 @@ for (var yyy = 0; yyy < array_nomi.length; yyy++){
 
     console.log(random_value_nome, random_value_cognome);
 
-    random_nomi_cognomi.push(array_nomi[random_value_nome] + array_cognomi[random_value_cognome]);
+    random_nomi_cognomi.push(array_nomi[random_value_nome] + " " +  array_cognomi[random_value_cognome]);
 
     console.log(array_nomi[random_value_nome], array_cognomi[random_value_cognome]);
 
